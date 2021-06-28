@@ -5,12 +5,12 @@ Generate a XML sitemap dynamically using PHP from database. Here you could fine 
 
 ## Usage:
 
-- Define your database in `app/config.php`
+- Define your database in [Config File](app/config.php)
 
 <br>
 
 ```sql
-[comment]: <> (Database Structure)
+[comment]: <> (Database Structure Including Meta Information)
 
 CREATE TABLE IF NOT EXISTS `app_sitemap` (
    `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `app_sitemap` (
    `updated_at` datetime NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE utf8mb4_general_ci AUTO_INCREMENT=1;
 ```
-
+<br>
 
 ```bash
 $ php index.php
