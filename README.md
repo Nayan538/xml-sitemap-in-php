@@ -1,6 +1,6 @@
 ## XML Sitemap in PHP
 
-Generate a XML sitemap dynamically using PHP from database. Here you could fine the sitemap.xml file in `storage` directory for testing purpose as well. And make sure that, for your real-time application please avoid `storage` directory for indexing.
+Generate a XML sitemap dynamically using PHP from database. Here you could fine the sitemap.xml file in [Storage](storage) directory for testing purpose as well. And make sure that, for your real-time application please avoid [Storage](storage) directory for indexing.
 
 
 ## Usage:
